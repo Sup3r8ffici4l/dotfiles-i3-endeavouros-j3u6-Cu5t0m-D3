@@ -1,0 +1,24 @@
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
+//@theme "/usr/share/rofi/themes/purple.rasi"
+configuration {
+    font:                               "Urbanist Bold 10";
+    scroll-method:                      2;
+    location:                           6;
+    fixed-num-lines:                    true;
+}
+@theme "/usr/share/rofi/themes/purple.rasi"
+window {
+    background-color: @background;
+    border:           3;
+    padding:          2;
+    height:           125;
+    width:            125;
+}
+listview {
+    lines:                          4;
+    columns:                        1;
+    padding:                        2;
+}
+
+
